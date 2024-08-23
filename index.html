@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title style="font-family: 'Times New Roman', Times, serif;">Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <header>
+    <nav class="navbar">
+      
+      <ul class="menu">
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#portfolio">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="main">
+    <div class="info-content">
+      <h1 style="font-family: 'Times New Roman', Times, serif;">Emmanuel Mercado</h1>
+      <p style="font-family: 'Times New Roman', Times, serif;">Backend Developer</p>
+      <a download href="/img/ima.jpeg">
+        <button   style="font-family: 'Times New Roman', Times, serif;" class="download-cv">Descargar CV</button>
+      </a>
+      <img class="foto"  src="img/Emma.jpeg" alt="Emmanuel Mercado">
+    </div>
+ 
+    <div class="about" id="about">
+      <div class="about-info">
+        <h2 class="sobre">Sobre mí</h2>
+        <div class="divider"></div>
+        <p class="text">
+          Soy una persona proactiva, siempre dispuesto a asumir nuevos desafíos.
+          Actualmente estoy realizando la carrera de Ingeniería de Sistemas con una gran pasión por el desarrollo de software.
+        </p>
+        <p class="text">
+
+          He desarrollado proyectos pequeños que demuestran mis habilidades y mi entusiasmo por aprender y 
+          aplicar tecnologías. 
+        </p>
+        <p class="text">
+
+          He adquirido sólidas habilidades en Java, Base de datos , JavaScrips , ReactNative y Estructuras de datos, 
+          a través de proyectos personales y universidad. 
+        <p class="text">
+
+          Estoy constantemente buscando nuevos desafíos y oportunidades para expandir mis conocimientos en el desarrollo. 
+        </p>
+
+          </p>
+        
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="portfolio" id="portfolio">
+  <div class="portfolio-headings">
+    <h2>Proyectos</h2>
+    <div class="divider"></div>
+  </div>
+  
+  <div class="projects-container">
+    <div class="container">
+      <div class="card">
+        <div class="card_imgJa">
+          <!-- Imagen de proyecto -->
+        </div>
+        <div class="card_title"> 
+          <h2 style="font-family: 'Times New Roman', Times, serif;">Backend Clima</h2>
+          <p style="font-family: 'Times New Roman', Times, serif;">Este proyecto trata de llevar a cabo un backend con arquitectura limpia ,en Java con SpringBoot y MySql</p>
+        </div>
+        <div class="card__proyects-links">
+          <a href="https://github.com/EmmaMercado9/clean-architecture-Java" target="_blank" ><i class="fa-brands fa-github"></i></a>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="card">
+        <div class="card_imgPyt">
+          <!-- Imagen de proyecto -->
+        </div>
+        <div class="card_title">
+          <h2 style="font-family: 'Times New Roman', Times, serif;">Llamadas de Emergencia</h2>
+          <p style="font-family: 'Times New Roman', Times, serif;">Este proyecto trata de un modelado de datos ,con abstraccion en jupyter utilizando ORM con python y oracledb.</p>
+        </div>
+        <div class="card__proyects-links">
+          <a href="https://github.com/EmmaMercado9/secure-Datos" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      
+      </div>
+    </div>
+    
+    <!-- Agrega más contenedores aquí según sea necesario -->
+    <div class="container">
+      <div class="card">
+        <div class="card_imgRe">
+         
+        </div>
+        <div class="card_title">
+          <h2 style="font-family: 'Times New Roman', Times, serif;">App Metacritic</h2>
+          <p style="font-family: 'Times New Roman', Times, serif;">Este proyecto trata de desarrollo de una App utilizando ReactNative, consumiendo api de metacritic.</p>
+        </div>
+        <div class="card__proyects-links">
+          <a href="https://github.com/EmmaMercado9/appReactNative" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+       
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  <div class="container-contact" id="contacto">
+    <div class="contact-form">
+      <h2 class="msj">Contacto</h2>
+      <form  action="https://formspree.io/f/mwpenypd" method="post" class="form">
+        <label>
+          <input type="text" name="name" placeholder="Name" required>
+        </label>
+        <label>
+          <input type="email" name="email" placeholder="Email" required>
+        </label>
+        <textarea name="message" placeholder="Escribe algo..."  required ></textarea>
+        <button  style="font-family: 'Times New Roman', Times, serif;"  type="submit" class="btn-submit" >Enviar Mensaje </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-content">
+    <h2  style="font-family: 'Times New Roman', Times, serif;">Emmanuel Mercado</h2>
+    <h5  style="font-family: 'Times New Roman', Times, serif;">Backend Developer</h5>
+  </div>
+  <div class="social-network">
+    <a href="https://www.linkedin.com/in/emmanuelmercado9/" target="_blank">
+    <i class="fa-brands fa-linkedin-in"></i>
+  </div>
+</footer>
+
+</body>
+</html>

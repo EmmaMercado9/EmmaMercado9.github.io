@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+
+body {
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #1c1c3a;
+  color: #ffffff;
+ 
+  padding: 20;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: #1a202c; /* Color de fondo oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 5px 20px; /* Ajusta el padding para hacer la barra más fina */
+  height: 40px; /* Establece una altura específica para la barra */
+  z-index: 1000; /* Asegura que el navbar esté encima de otros elementos */
+  
+}
+
+.brand h2 {
+  font-size: 24px;
+  color: #00d1c1;
+}
+
+.brand span {
+  color: #ffffff;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.menu li a {
+  color: #69e2f1;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+.foto{
+    display: block; /* Asegura que la imagen se comporta como un bloque */
+    margin: 60px auto; /* Añade margen arriba y abajo, y centra horizontalmente */
+    width: 400px; /* Ajusta el ancho según tus preferencias */
+    height: 400px; /* Ajusta la altura para mantener la proporción */
+    border-radius: 80%; /* Hace la imagen circular */
+    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor sin distorsionarse */
+    border: 2px solid #007bff; /* Añade un borde alrededor de la imagen */
+  
+}
+.menu li a.active {
+  text-decoration: underline;
+}
+.menu a{
+  text-decoration: none;
+  color: #061525;
+  background-color: #0d1430;
+  padding: 10px 15px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.info-content {
+  max-width: 50%;
+}
+
+.info-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.info-content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.download-cv {
+  background-color: #00d1c1;
+  color: #1c1c3a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about {
+  background-color: #2b2b52;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 40%;
+}
+
+.about-info .sobre {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  height: 4px;
+  background-color: #00d1c1;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+    font-size: 16px; 
+    line-height: 1.6;   
+     margin-bottom: 20px; 
+}
+
+.portfolio,
+.contact-section {
+  padding: 50px 0;
+}
+
+.portfolio-headings,
+.contact-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-headings h2,
+.contact-heading h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #2b2b52;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 30%;
+  text-align: center;
+}
+
+.card_imgJa {
+  width: 100%;
+  height: 150px;
+  background-color: #1c1c3a;
+  background-image: url(../img/java.png);
+  background-size: cover;
+}
+.card_imgPyt {
+  width: 100%;
+  height: 150px;
+  background-color: #1c1c3a;
+  background-image: url(../img/python.png);
+  background-size: cover;
+}
+.card_imgRe {
+  width: 100%;
+  height: 150px;
+  background-color: #1c1c3a;
+  
+  background-image: url(../img/react.png);
+  background-size: contain;
+}
+
+.card_title h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card__proyects-links a {
+  color: #00d1c1;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.proyect-details {
+  background-color: #00d1c1;
+  color: #1c1c3a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-form {
+  background-color: #2b2b52;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+.contact-form {
+  background-color: #242437;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-form h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-form .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .form label {
+  margin-bottom: 15px;
+}
+
+.form{
+  max-width: 400px;
+  padding-left: 450px;
+}
+.contact-form .form input,
+.contact-form .form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-form .form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-form .btn-submit {
+  background-color: #00d1c1;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 150px;
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+.contact-form .btn-submit:hover {
+  background-color: #00b3a7;
+}
+
+textarea {
+  height: 100px;
+}
+
+.btn-submit {
+  background-color: #00d1c1;
+  color: #1c1c3a;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #1c1c3a;
+}
+
+.footer-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-content h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.social-network i {
+  color: #00d1c1;
+  font-size: 24px;
+  cursor: pointer;
+}
+.msj{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:bold; 
+}
+.sobre{
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.portfolio {
+  padding: 20px;
+}
+
+.portfolio-headings {
+  text-align: center;
+}
+
+.divider {
+  height: 2px;
+  width: 50px;
+  background-color: #333;
+  margin: 10px auto;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.container {
+  flex: 1 1 calc(33.333% - 20px); /* Ocupa un tercio del ancho del contenedor principal, menos el espacio de `gap` */
+  box-sizing: border-box; /* Incluye el padding y border en el ancho y alto del elemento */
+  max-width: calc(33.333% - 20px); /* Máximo ancho para evitar que el contenedor sea más ancho que un tercio de la fila */
+}
